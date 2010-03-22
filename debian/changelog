@@ -1,4 +1,4 @@
-polkit-qt-1 (0.95.1-2) unstable; urgency=low
+polkit-kde-1 (0.95.1-2) unstable; urgency=low
 
   * Update debian/control: add policykit-1 dependency.
 
