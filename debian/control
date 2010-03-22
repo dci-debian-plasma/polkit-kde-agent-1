@@ -1,5 +1,5 @@
 Source: polkit-kde-1
-Priority: extra
+Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Fathi Boudra <fabo@debian.org>
 Build-Depends: debhelper (>= 7.4.15), cmake, pkg-kde-tools (>= 0.6.4),
