@@ -1,7 +1,12 @@
 polkit-kde-1 (0.99.0-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
+
+  [ Modestas Vainius ]
   * Add Vcs fields to debian/control.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump Standards-Version to 3.9.1, no changes needed.
 
  -- Modestas Vainius <modax@debian.org>  Mon, 26 Jul 2010 23:33:27 +0300
 
