@@ -21,4 +21,4 @@ polkit-kde-1 (0.95.1-1) unstable; urgency=low
 
   * Initial release. (Closes: #571531)
 
-  -- Fathi Boudra <fabo@debian.org>  Thu, 25 Feb 2010 20:43:18 +0100
+ -- Fathi Boudra <fabo@debian.org>  Thu, 25 Feb 2010 20:43:18 +0100
