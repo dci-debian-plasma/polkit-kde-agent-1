@@ -4,6 +4,7 @@ polkit-kde-1 (0.99.0-0r1) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Add Vcs fields to debian/control.
+  * Switch to dhmk based debian-qt-kde.mk.
 
   [ José Manuel Santamaría Lema ]
   * Bump Standards-Version to 3.9.1, no changes needed.

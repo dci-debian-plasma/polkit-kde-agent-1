@@ -2,7 +2,7 @@ Source: polkit-kde-1
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Fathi Boudra <fabo@debian.org>
-Build-Depends: debhelper (>= 7.4.15), cmake, pkg-kde-tools (>= 0.6.4),
+Build-Depends: debhelper (>= 7.4.15), cmake, pkg-kde-tools (>= 0.11),
  kdelibs5-dev, libpolkit-qt-1-dev (>= 0.99.0)
 Standards-Version: 3.9.1
 Section: libs
