@@ -1,4 +1,4 @@
-polkit-kde-1 (0.99.0-0r1) UNRELEASED; urgency=low
+polkit-kde-1 (0.99.0-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -10,7 +10,7 @@ polkit-kde-1 (0.99.0-0r1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.1, no changes needed.
   * Bump libpolkit-qt-1-dev build depend to 0.99.0.
 
- -- Modestas Vainius <modax@debian.org>  Mon, 26 Jul 2010 23:33:27 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 23 Mar 2011 01:30:52 +0200
 
 polkit-kde-1 (0.95.1-2) unstable; urgency=low
 
