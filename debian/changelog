@@ -7,6 +7,7 @@ polkit-kde-1 (0.99.0-0r1) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Bump Standards-Version to 3.9.1, no changes needed.
+  * Bump libpolkit-qt-1-dev build depend to 0.99.0.
 
  -- Modestas Vainius <modax@debian.org>  Mon, 26 Jul 2010 23:33:27 +0300
 
