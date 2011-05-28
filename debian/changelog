@@ -1,7 +1,9 @@
 polkit-kde-1 (0.99.0-3) UNRELEASED; urgency=low
 
   [ Scott Kitterman ]
-  * 
+  * Add debian/patches/fix_dialog_focus.diff from Kubuntu
+    - Prevents the auth dialog from popping up in the background where it can't
+      be seen
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 28 May 2011 09:21:15 -0400
 

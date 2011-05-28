@@ -1,0 +1,24 @@
+Patch from Kubuntu
+Committed upstream in 0701f84a57156f8f584bb4fe928811a26ceefcf0
+Prevents the auth dialog from popping up in the background where it can't be
+seen
+Index: polkit-kde-agent-1-0.99.0/policykitlistener.cpp
+===================================================================
+--- polkit-kde-agent-1-0.99.0.orig/policykitlistener.cpp	2011-01-19 10:24:09.413897000 -0500
++++ polkit-kde-agent-1-0.99.0/policykitlistener.cpp	2011-01-19 10:24:36.577897000 -0500
+@@ -22,6 +22,7 @@
+ #include "AuthDialog.h"
+ 
+ #include <KDebug>
++#include <KWindowSystem>
+ 
+ #include <PolkitQt1/Agent/Listener>
+ #include <PolkitQt1/Agent/Session>
+@@ -100,6 +101,7 @@
+     kDebug() << "WinId of the dialog is " << m_dialog.data()->winId() << m_dialog.data()->effectiveWinId();
+     m_dialog.data()->setOptions();
+     m_dialog.data()->show();
++    KWindowSystem::forceActiveWindow(m_dialog.data()->winId());
+     kDebug() << "WinId of the shown dialog is " << m_dialog.data()->winId() << m_dialog.data()->effectiveWinId();
+ 
+     m_numTries = 0;
