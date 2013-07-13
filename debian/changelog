@@ -5,6 +5,10 @@ polkit-kde-1 (0.99.0-4) UNRELEASED; urgency=low
     on upgrade. (Closes: #645440)
   * Bump Standards-Version to 3.9.4, no changes needed.
 
+  [ Pino Toscano ]
+  * The rebuild changes the kdebase-runtime dependency to kde-runtime.
+    (Closes: #716849)
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 14 May 2013 17:28:30 +0200
 
 polkit-kde-1 (0.99.0-3) unstable; urgency=low
