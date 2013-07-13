@@ -6,8 +6,8 @@ Build-Depends: debhelper (>= 7.4.15), cmake, pkg-kde-tools (>= 0.11),
  kdelibs5-dev, libpolkit-qt-1-dev (>= 0.99.0)
 Standards-Version: 3.9.4
 Section: libs
-Vcs-Git: git://git.debian.org/pkg-kde/kde-req/polkit-kde-1.git
-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-req/polkit-kde-1.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-req/polkit-kde-1.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-req/polkit-kde-1.git
 
 Package: polkit-kde-1
 Architecture: any

@@ -8,6 +8,7 @@ polkit-kde-1 (0.99.0-4) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * The rebuild changes the kdebase-runtime dependency to kde-runtime.
     (Closes: #716849)
+  * Update Vcs-* headers
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 14 May 2013 17:28:30 +0200
 
