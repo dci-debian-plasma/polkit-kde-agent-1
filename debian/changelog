@@ -1,6 +1,7 @@
-polkit-kde-1 (0.99.0-4) UNRELEASED; urgency=low
+polkit-kde-1 (0.99.1-1) UNRELEASED; urgency=low
 
   [ Felix Geyer ]
+  * New upstream release.
   * Remove obsolete /etc/xdg/autostart/polkit-kde-authentication-agent-1.desktop
     on upgrade. (Closes: #645440)
   * Bump Standards-Version to 3.9.4, no changes needed.
