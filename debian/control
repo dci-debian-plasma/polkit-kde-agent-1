@@ -1,17 +1,22 @@
-Source: polkit-kde-1
+Source: polkit-kde-agent-1
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Fathi Boudra <fabo@debian.org>
-Build-Depends: debhelper (>= 7.4.15), cmake, pkg-kde-tools (>= 0.11),
- kdelibs5-dev, libpolkit-qt-1-dev (>= 0.99.0)
-Standards-Version: 3.9.4
-Section: libs
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-req/polkit-kde-1.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-req/polkit-kde-1.git
+Build-Depends: debhelper (>= 9), cmake, pkg-kde-tools (>= 0.11),
+ libpolkit-qt5-1-dev (>= 0.112.0), extra-cmake-modules, qtbase5-dev,
+ libkf5i18n-dev, libkf5windowsystem-dev, libkf5dbusaddons-dev, libkf5widgetsaddons-dev,
+ libkf5coreaddons-dev, libkf5crash-dev, libkf5config-dev, libkf5iconthemes-dev, 
+ libkf5notifications-dev, libkf5configwidgets-dev
+Standards-Version: 3.9.5
+Section: kde
+Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/polkit-kde-agent-1.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/polkit-kde-agent-1.git
 
-Package: polkit-kde-1
+Package: polkit-kde-agent-1
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, policykit-1
+Breaks: polkit-kde-1 (<< 5.1.95~)
+Replaces: polkit-kde-1 (<< 5.1.95~)
 Description: KDE dialogs for PolicyKit
  PolicyKit is an application-level toolkit for defining and handling the policy
  that allows unprivileged processes to speak to privileged processes.
@@ -22,3 +27,11 @@ Description: KDE dialogs for PolicyKit
  .
  PolicyKit-Kde provides a D-Bus session bus service that is used to
  bring up authentication dialogs used for obtaining privileges.
+
+Package: polkit-kde-1
+Depends: polkit-kde-agent-1, ${misc:Depends}
+Architecture: all
+Priority: extra
+Section: oldlibs
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
