@@ -1,4 +1,4 @@
-polkit-kde-agent-1 (5.1.95-0ubuntu1) UNRELEASED; urgency=medium
+polkit-kde-agent-1 (4:5.1.95-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Sergey Popov ]
   * New upstream release.
