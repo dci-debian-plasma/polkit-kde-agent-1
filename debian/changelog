@@ -1,3 +1,18 @@
+polkit-kde-agent-1 (4:5.1.95-0ubuntu1) UNRELEASED; urgency=medium
+
+  [ Sergey Popov ]
+  * New upstream release.
+
+  [ Harald Sitter ]
+  * Rename source to polkit-kde-agent-1 to align with upstream
+  * Rename binary to align with source/upstream
+    + Add transitional package.
+  * Update maintainer to include Kubuntu
+  * Change section to kde as this is a kde helper, not technically a lib
+  * Bump dh compat to 9
+
+ -- Sergey Popov <sergobot256@gmail.com>  Fri, 09 Jan 2015 19:58:37 +0300
+
 polkit-kde-1 (0.99.1-1) unstable; urgency=low
 
   * Team upload.
