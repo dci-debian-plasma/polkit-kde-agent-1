@@ -1,4 +1,4 @@
-polkit-kde-agent-1 (4:5.1.95-0ubuntu1) UNRELEASED; urgency=medium
+polkit-kde-agent-1 (4:5.1.95-0ubuntu1) vivid; urgency=medium
 
   [ Sergey Popov ]
   * New upstream release.
@@ -10,9 +10,6 @@ polkit-kde-agent-1 (4:5.1.95-0ubuntu1) UNRELEASED; urgency=medium
   * Update maintainer to include Kubuntu
   * Change section to kde as this is a kde helper, not technically a lib
   * Bump dh compat to 9
-
-  [ Jonathan Riddell ]
-  * New upstream beta release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Jan 2015 13:25:50 +0100
 
