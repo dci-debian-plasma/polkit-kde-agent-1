@@ -5,6 +5,7 @@ polkit-kde-agent-1 (4:5.2.0-1~) UNRELEASED; urgency=medium
   * Update build dependencies to build against experimental and to
     follow cmake.
   * Update copyright information.
+  * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 12 Feb 2015 23:39:36 +0100
 
