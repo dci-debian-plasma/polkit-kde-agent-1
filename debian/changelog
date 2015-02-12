@@ -1,8 +1,9 @@
 polkit-kde-agent-1 (4:5.2.0-1~) UNRELEASED; urgency=medium
 
   * Prepare initial Debian release.
+  * Add myself as Uploader.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 12 Feb 2015 23:38:53 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 12 Feb 2015 23:39:36 +0100
 
 polkit-kde-agent-1 (4:5.2.0-0ubuntu1) vivid; urgency=medium
 

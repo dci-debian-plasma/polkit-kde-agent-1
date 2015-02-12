@@ -1,7 +1,8 @@
 Source: polkit-kde-agent-1
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Fathi Boudra <fabo@debian.org>
+Uploaders: Fathi Boudra <fabo@debian.org>,
+           Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
