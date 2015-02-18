@@ -9,9 +9,32 @@ Copyright: 2008, Daniel Nicoletti <dantti85-pk@yahoo.com.br>
            1989-1991, Free Software Foundation, Inc
            2007-2008, Gökçen Eraslan <gokcen@pardus.org.tr>
            2009, Jaroslav Reznik <jreznik@redhat.com>
+           2009, Red Hat, Inc
+           2010, Rosetta Contributors and Canonical Ltd 2010
+           2010, This_file_is_part_of_KDE
 License: GPL-2+
 
-Files: *
+Files: po/ca/polkit-kde-authentication-agent-1.po
+       po/ca@valencia/polkit-kde-authentication-agent-1.po
+Copyright: 2009-2015, This_file_is_part_of_KDE
+License: LGPL-2+
+ This file is distributed under the license LGPL version 2 or later.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+Files: po/uk/polkit-kde-authentication-agent-1.po
+Copyright: 2015, This_file_is_part_of_KDE
+License: LGPL-2.1+3+KDEeV
+ This file is distributed under the license LGPL version 2.1 or
+ version 3 or later versions approved by the membership of KDE e.V.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1", likewise,
+ the complete text of the GNU Lesser General Public License version 3 can be
+ found in "/usr/share/common-licenses/LGPL-3".
+
+Files: debian/*
 Copyright: 2010, Fathi Boudra <fabo@debian.org>
 License: GPL-2+
 
