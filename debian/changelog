@@ -5,6 +5,18 @@ polkit-kde-agent-1 (4:5.2.2-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 25 Mar 2015 09:57:43 +0100
 
+polkit-kde-agent-1 (4:5.2.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 24 Mar 2015 07:44:58 -0700
+
+polkit-kde-agent-1 (4:5.2.1-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 23 Feb 2015 09:49:49 -0800
+
 polkit-kde-agent-1 (4:5.2.0-1) experimental; urgency=medium
 
   * Prepare initial Debian release.
