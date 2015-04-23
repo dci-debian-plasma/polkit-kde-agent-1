@@ -1,8 +1,9 @@
-polkit-kde-agent-1 (4:5.2.95-0ubuntu1) UNRELEASED; urgency=medium
+polkit-kde-agent-1 (4:5.3.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * Plasma 5.3 beta
+  * new upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 18 Apr 2015 14:54:01 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 23 Apr 2015 17:15:47 +0200
 
 polkit-kde-agent-1 (4:5.2.2-0ubuntu1) vivid; urgency=medium
 
