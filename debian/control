@@ -1,12 +1,12 @@
 Source: polkit-kde-agent-1
+Section: kde
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Fathi Boudra <fabo@debian.org>
-Build-Depends: cmake,
+Uploaders: Fathi Boudra <fabo@debian.org>, Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules,
+               extra-cmake-modules (>= 1.2.0),
                libkf5config-dev,
-               libkf5configwidgets-dev,
                libkf5coreaddons-dev,
                libkf5crash-dev,
                libkf5dbusaddons-dev,
@@ -16,12 +16,12 @@ Build-Depends: cmake,
                libkf5widgetsaddons-dev,
                libkf5windowsystem-dev,
                libpolkit-qt5-1-dev (>= 0.112.0),
-               pkg-kde-tools (>= 0.11),
-               qtbase5-dev
+               pkg-kde-tools (>= 0.15.16),
+               qtbase5-dev (>= 5.4.0~)
 Standards-Version: 3.9.6
-Section: kde
+Homepage: https://projects.kde.org/projects/kde/workspace/polkit-kde-agent-1
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/polkit-kde-agent-1.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/polkit-kde-agent-1.git
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/polkit-kde-agent-1.git/
 
 Package: polkit-kde-agent-1
 Architecture: any
@@ -40,9 +40,9 @@ Description: KDE dialogs for PolicyKit
  bring up authentication dialogs used for obtaining privileges.
 
 Package: polkit-kde-1
-Depends: polkit-kde-agent-1, ${misc:Depends}
-Architecture: all
-Priority: extra
 Section: oldlibs
+Priority: extra
+Architecture: all
+Depends: polkit-kde-agent-1, ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
