@@ -1,4 +1,4 @@
-polkit-kde-agent-1 (4:5.4.3-0ubuntu1) UNRELEASED; urgency=medium
+polkit-kde-agent-1 (4:5.4.3-0ubuntu1) xenial; urgency=medium
 
   [ Scarlett Clark ]
   * Vivid backport
@@ -7,7 +7,7 @@ polkit-kde-agent-1 (4:5.4.3-0ubuntu1) UNRELEASED; urgency=medium
   [ Philip Muškovac ]
   * New upstream bugfix release (LP: #1518598)
 
- -- Philip Muškovac <yofel@kubuntu.org>  Sun, 22 Nov 2015 14:15:15 +0100
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 22 Nov 2015 16:49:55 +0100
 
 polkit-kde-agent-1 (4:5.4.2-0ubuntu1) wily; urgency=medium
 
