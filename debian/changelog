@@ -3,10 +3,7 @@ polkit-kde-agent-1 (4:5.6.3-1~1.gbp52ca1a) UNRELEASED; urgency=medium
   ** SNAPSHOT build @52ca1a84d28049f7c76909f1e339adaf6e6808ea **
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @dacd0ae409409a9b5e4ed438e30776f30f1d6559 **
-
   * New upstream release (5.5.5).
-  * UNRELEASED
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
