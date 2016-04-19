@@ -1,14 +1,15 @@
-polkit-kde-agent-1 (4:5.6.3-1~1.gbp52ca1a) UNRELEASED; urgency=medium
+polkit-kde-agent-1 (4:5.6.3-1~2.gbp7ab5c2) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @52ca1a84d28049f7c76909f1e339adaf6e6808ea **
+  ** SNAPSHOT build @7ab5c266fdfc36cff6d25218d4adf96f3085d7ee **
 
   [ Maximiliano Curia ]
   * New upstream release (5.5.5).
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 19 Apr 2016 16:11:08 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 19 Apr 2016 18:11:16 +0200
 
 polkit-kde-agent-1 (4:5.5.4-1) experimental; urgency=medium
 
