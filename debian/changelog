@@ -1,6 +1,4 @@
-polkit-kde-agent-1 (4:5.6.3-1~2.gbp7ab5c2) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @7ab5c266fdfc36cff6d25218d4adf96f3085d7ee **
+polkit-kde-agent-1 (4:5.6.3-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.5.5).
@@ -9,7 +7,7 @@ polkit-kde-agent-1 (4:5.6.3-1~2.gbp7ab5c2) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 19 Apr 2016 18:11:16 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 10 May 2016 16:16:53 +0200
 
 polkit-kde-agent-1 (4:5.5.4-1) experimental; urgency=medium
 
