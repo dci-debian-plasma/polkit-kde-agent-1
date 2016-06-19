@@ -1,10 +1,8 @@
-polkit-kde-agent-1 (4:5.6.5-1~1.gbp96578e) UNRELEASED; urgency=medium
+polkit-kde-agent-1 (4:5.6.5-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @96578ebeb22cc2fd3331bba25c1b9acd1bec688d **
+  * New upstream release.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 14 Jun 2016 16:11:08 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Jun 2016 20:11:47 +0200
 
 polkit-kde-agent-1 (4:5.6.4-1) unstable; urgency=medium
 
