@@ -1,10 +1,11 @@
-polkit-kde-agent-1 (4:5.7.1-1~1.gbp14722f) UNRELEASED; urgency=medium
+polkit-kde-agent-1 (4:5.7.2-1~1.gbp406653) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @14722f2888ea163bff4eaf4e4434f9b455a1094b **
+  ** SNAPSHOT build @4066538397f10e567cfc86cf6a6ca33a46cb2776 **
 
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 22:11:10 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 19 Jul 2016 16:11:12 +0200
 
 polkit-kde-agent-1 (4:5.7.0-1) unstable; urgency=medium
 
