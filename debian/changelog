@@ -1,3 +1,11 @@
+polkit-kde-agent-1 (4:5.8.1-1~1.gbp48ed2b) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @48ed2bd41eb2375e66974801f120dc262e97c119 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 22:11:32 +0200
+
 polkit-kde-agent-1 (4:5.8.0-1) unstable; urgency=medium
 
   * New upstream release (5.8.0)
