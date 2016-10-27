@@ -1,3 +1,12 @@
+polkit-kde-agent-1 (4:5.8.2-2~1.gbpe647e6) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @e647e6f81671cf4af989476c4fd32cbec50e9817 **
+
+  * Add provides polkit-1-auth-agent.
+    Thanks to Jeremy Bicha for reporting (Closes: 842266)
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 27 Oct 2016 18:11:15 +0200
+
 polkit-kde-agent-1 (4:5.8.2-1) unstable; urgency=medium
 
   * New upstream release (5.8.2)
