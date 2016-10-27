@@ -28,6 +28,7 @@ Architecture: any
 Depends: policykit-1, ${misc:Depends}, ${shlibs:Depends}
 Breaks: plasma-desktop (<< 4:5.8), polkit-kde-1 (<< 5.1.95~)
 Replaces: polkit-kde-1 (<< 5.1.95~)
+Provides: polkit-1-auth-agent
 Description: KDE dialogs for PolicyKit
  PolicyKit is an application-level toolkit for defining and handling the policy
  that allows unprivileged processes to speak to privileged processes.
