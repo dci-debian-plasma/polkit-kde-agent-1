@@ -1,3 +1,9 @@
+polkit-kde-agent-1 (4:5.9.4-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 21 Mar 2017 15:02:59 +0000
+
 polkit-kde-agent-1 (4:5.9.3-0neon) xenial; urgency=medium
 
   * New release
