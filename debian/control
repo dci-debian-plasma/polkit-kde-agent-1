@@ -17,11 +17,19 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5windowsystem-dev,
                libpolkit-qt5-1-dev (>= 0.112.0),
                pkg-kde-tools (>= 0.15.16),
-               qtbase5-dev (>= 5.4.0~)
+               qtbase5-dev (>= 5.4.0~),
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/kde/workspace/polkit-kde-agent-1
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/plasma/polkit-kde-agent-1.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/plasma/polkit-kde-agent-1.git
+
+Package: polkit-kde-1
+Section: oldlibs
+Priority: extra
+Architecture: all
+Depends: polkit-kde-agent-1, ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
 
 Package: polkit-kde-agent-1
 Architecture: any
@@ -39,11 +47,3 @@ Description: KDE dialogs for PolicyKit
  .
  PolicyKit-Kde provides a D-Bus session bus service that is used to
  bring up authentication dialogs used for obtaining privileges.
-
-Package: polkit-kde-1
-Section: oldlibs
-Priority: extra
-Architecture: all
-Depends: polkit-kde-agent-1, ${misc:Depends}
-Description: transitional dummy package
- This is a transitional dummy package. It can safely be removed.
