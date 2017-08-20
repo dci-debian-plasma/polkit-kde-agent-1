@@ -25,7 +25,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/plasma/polkit-kde-agent-1.git
 
 Package: polkit-kde-1
 Section: oldlibs
-Priority: extra
+Priority: optional
 Architecture: all
 Depends: polkit-kde-agent-1, ${misc:Depends}
 Description: transitional dummy package
