@@ -1,10 +1,13 @@
-polkit-kde-agent-1 (4:5.11.4-1~) UNRELEASED; urgency=medium
+polkit-kde-agent-1 (4:5.11.4-1) experimental; urgency=medium
 
   * New revision
   * Update uploaders list as requested by MIA team (Closes: #879421)
   * New upstream release (5.11.4).
+  * Bump Standards-Version to 4.1.2.
+  * Update build-deps and deps with the info from cmake
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Dec 2017 15:51:50 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 03 Jan 2018 16:49:23 -0300
 
 polkit-kde-agent-1 (4:5.10.5-2) sid; urgency=medium
 
